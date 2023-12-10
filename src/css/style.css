@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    max-width: 1440px;
+    background-color: black;
+
+    background-image: url('../image/bg-repeat.jpg');
+    background-size: contain;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.main .doubt {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.main .doubt .title {
+    width: 287.255px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.main .doubt .description {
+    width: 300px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.main .form {
+    width: 340px;
+    height: 378px;
+    background: #FFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .form .field {
+    height: 45px;
+    margin-bottom: 9px;
+}
+
+.main .form .field:nth-child(4) {
+    margin-bottom: 1px;
+    height: 120px;
+}
+
+.main .form input,
+.main .form .menssege {
+    width: 298.013px;
+    height: 35.11px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FFF;
+    padding: 5px;
+}
+
+.main .form .field .menssege {
+    height: 105px;
+    text-align: justify;
+    resize: none;
+}
+
+.main .form .field .menssege-null {
+    color: #F52E2E;
+    font-size: 8px;
+    font-weight: 400;
+    display: none;
+}
+.main .form .field .erro{
+    display: block;
+    border-color: #F52E2E;
+}
+
+.main .form .field .checked{
+    border-color: #00C22B;
+}
+
+.main .form .alert {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 11px;
+    padding-left: 15px;
+    align-self: flex-start;
+}
+
+.main .form .send {
+    position: relative;
+    width: 298.013px;
+    height: 41.129px;
+    background-image: url(../image/button.svg);
+
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="doubt">
+            <h1 class="title">FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+            <p class="description">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+        </div>
+        <form class="form">
+            <div class="field">
+                <input type="text" name="name" id="name" placeholder="Nome completo *">
+                <p class="menssege-null">campo obrigatório</p>
+            </div>
+
+            <div class="field">
+                <input type="email" name="email" id="email" placeholder="Email *">
+                <p class="menssege-null">campo obrigatório</p>
+            </div>
+            
+            <div class="field">
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{11}" placeholder="Telefone *">
+                <p class="menssege-null">campo obrigatório</p>
+            </div>
+            
+            <div class="field">
+                <textarea class="menssege" name="menssege" id="menssege" placeholder="Mensagem *"></textarea>
+                <p class="menssege-null">campo obrigatório</p>
+            </div>
+            <p class="alert">*campos obrigatórios</p>
+            <button class="send" type="submit">Enviar</button>
+        </form>
+
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
